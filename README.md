@@ -32,11 +32,6 @@ Let's setup Freebase server first.
 5. Replace /dev/shm/vdb/ in virtuoso.ini with the output of Step 4.
 6. Run "virtuoso-t -f"
 
-
-## Before installation 2
-
-This is a maven project, to run our code, please include all necessary jars in the project lib path. If you can not download these jars, you can directly include the jars in the folder target/lib except for the jar "stanford-english-corenlp-2016-01-10-models.jar". Becaue this jar is too large to be uploaded to the github. But You can download this jar from the url "http://nlp.stanford.edu/software/stanford-english-corenlp-2016-01-10-models.jar".
-
 ## Installation
 
 Run the following commands for installation
